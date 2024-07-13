@@ -1,0 +1,81 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+nav.navbar {
+  border-bottom: 2px solid black;
+}
+
+nav a.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+}
+
+li.nav-item {
+  text-align: center;
+}
+
+#nav-item-1 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#nav-item-2 {
+  border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 576px) {
+  #navbarNavDropdown {
+    display: none !important;
+  }
+  div.menuCards a {
+    display: none;
+  }
+}
+
+/* @media screen and (min-width: 992px) {
+  #menuCard-1 {
+    margin-right: 0.1rem !important;
+  }
+  #menuCard-2 {
+    margin-left: 0.4rem !important;
+    margin-right: 0.4rem !important;
+  }
+  #menuCard-3 {
+    margin-left: 0.1rem !important;
+  }
+} */
+
+/* @media screen and (min-width: 769px) and (max-width: 991px) {
+  div.menuCards {
+    margin-bottom: 0.4rem !important;
+  }
+  #menuCard-1 {
+    margin-right: 0.3rem !important;
+  }
+  #menuCard-2 {
+    margin-left: 0.3rem !important;
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  div.menuCards {
+    margin-bottom: 0.4rem !important;
+  }
+} */
+
+div#ourMenu {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+div.menuCards {
+  margin: 1.5rem;
+  padding: 1rem;
+  background-color: bisque;
+}
+
+div.menuCards h2 {
+  text-align: center;
+}
